@@ -35,6 +35,18 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+## Split to two Files with FFMPEG
+
+adapt this to your needs.
+
+```
+ffmpeg -i input.mov \
+ -filter_complex "[0]stereo3d=sbsl:ml[left];[0]stereo3d=sbsl:mr[right]" \
+ -map "[left]" -r 24 -pix_fmt yuv422p10 -vcodec prores -profile:v 3 output_L.mov \
+ -map "[right]" -r 24 -pix_fmt yuv422p10 -vcodec prores -profile:v 3 output_R.mov
+```
+
+
 ## Disclaimer
 
 The tool is in early stage. It does not process the sound. 
