@@ -3,6 +3,7 @@
 ## Description
 command line tool for mac osx. splitting a spatial video file MVC-HEVC file in to two separate video files.
 The tool has a couple of options that are described in the help switch.
+The limit switch allows to make short tests before encoding large files.
 
 ##Installation
 via homebrew
@@ -32,5 +33,10 @@ OPTIONS:
 
 ## Disclaimer
 
-The tool is in early stage. It does not process the sound. I owe a lot to other programmers for showing how to do this.
+The tool is in early stage. It does not process the sound. 
 There is no warranty this is working perfectly. Please use it at your own risk.
+
+## Acknowledgement
+Thank you for xaphod/VideoWriter.swift
+https://gist.github.com/xaphod/de83379cc982108a5b38115957a247f9
+for showing the way of doing this.
