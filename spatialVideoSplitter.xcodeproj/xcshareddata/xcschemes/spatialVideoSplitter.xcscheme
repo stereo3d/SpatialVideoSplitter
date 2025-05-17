@@ -52,7 +52,11 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-i /Users/alarix/Documents/development/SpatialVideoSplitter/IMG_0080.MOV"
+            argument = "-l"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-i /Users/alarix/Documents/development/SpatialVideoSplitter/video/IMG_0080.MOV"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
