@@ -5,6 +5,10 @@ command line tool for mac osx. splitting a spatial video file MVC-HEVC file in t
 The tool has a couple of options that are described in the help switch.
 The limit switch allows to make short tests before encoding large files.
 
+<picture>
+   <img src="assets/svs.jpg" alt="screenshot" width="300" height="auto" />
+</picture>
+
 ##Installation
 via homebrew
 
