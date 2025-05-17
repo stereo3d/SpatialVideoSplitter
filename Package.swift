@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "spatialVideoSplitter",
+    name: "svs",
     platforms: [
         .macOS("14")
     ],
@@ -12,7 +12,7 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "spatialVideoSplitter",
+            name: "svs",
             dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
             ]
