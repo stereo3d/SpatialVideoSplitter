@@ -9,7 +9,7 @@ The limit switch allows to make short tests before encoding large files.
    <img src="assets/svs.jpg" alt="screenshot" width="450" height="auto" />
 </picture>
 
-##Installation
+## Installation
 via homebrew
 
 ```
