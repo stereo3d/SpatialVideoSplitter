@@ -1,7 +1,7 @@
 # SpatialVideoSplitter
 
 ## Description
-command line tool for mac osx. splitting a spatial video file MVC-HEVC file in to two separate video files.
+command line tool for mac osx. splitting a spatial video file MVC-HEVC file in to side by side video files.
 The tool has a couple of options that are described in the help switch.
 The limit switch allows to make short tests before encoding large files.
 
