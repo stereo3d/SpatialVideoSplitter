@@ -3,6 +3,7 @@
 //  spatialVideoSplitter
 //
 //  Created by alarix on 3/2/24.
+//  updated 10/04/25
 //
 
 import Foundation
@@ -74,7 +75,7 @@ struct svs: AsyncParsableCommand {
         
         let converter = VideoConvertor()
         
-        if verbose {print("\n\n Spatial Video Splitter. Convert MVC-H265 files. \n (c) 2024 Alaric Hamacher\n")}
+        if verbose {print("\n\n Spatial Video Splitter. Convert MVC-H265 files. \n (c) 2025 Alaric Hamacher\n")}
         
         if FileManager.default.fileExists(atPath: outputVideo.path(percentEncoded: true)) {
             try FileManager.default.removeItem(at: outputVideo)
