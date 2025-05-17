@@ -7,7 +7,7 @@
 import ArgumentParser
 import Foundation
 
-@main
+// @main
 @available(macOS 12, *)
 struct CountLines: AsyncParsableCommand {
     @Argument(
